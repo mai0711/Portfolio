@@ -8,7 +8,7 @@ export default function AboutMe() {
         <p>
           こんにちは。ご覧いただきありがとうございます😊<br />
           独学からプログラミング学習を開始し、その後カナダのカレッジで本格的にWEB開発を学んできました。
-          これまでは主にJavascriptとReact等のフロントエンドを中心に学習し、直近ではMERNスタックを使用しフルスタックアプリの作成も経験しております。<br />
+          これまでは主にJavascriptとReact等のフロントエンドを中心に学習し、直近ではMERNスタックを使用したフルスタックアプリの作成も経験しております。<br />
         <br />
           Hello there!
           I began my learning journey through self-study and then pursued formal education in web development at college.
