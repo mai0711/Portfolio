@@ -69,7 +69,12 @@
     .cardContent .card-text {
         font-size: 30%;
     }
+}
 
+@media (max-width: 615px) {
+    .cardContent .btn {
+        width: 60%;
+    }
 }
 
 @media (max-width: 414px) {
@@ -90,4 +95,7 @@
         font-size: 20% ;
     }
 
+    .cardContent .btn {
+        width: 70%;
+    }
 }
