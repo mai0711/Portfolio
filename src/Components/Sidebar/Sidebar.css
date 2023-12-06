@@ -1,0 +1,128 @@
+.sidebar {
+    /* height: 900px;
+    width: 250px; */
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    box-shadow: 5px 0 0 azure;
+    border-left: 5px solid grey;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    position: fixed;
+}
+
+.sidebarContainer {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.menuIcon {
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list {
+    display: flex;
+    min-width: 45px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.sidebarContainer ul li:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    width: 280px;
+    height: 70px;
+    padding-top: 0px;
+    transition: all 400ms;
+}
+
+
+.icon {
+    display: block;
+    min-width: 45px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: pink;
+    font-size: 1.5rem;
+    padding-left: 0px;
+}
+
+.title {
+    padding-left: 5px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    padding-top: 10px;
+}
+
+.light {
+    display: flex;
+    min-width: 45px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding-top: 330px;
+}
+
+.lightIcon {
+    display: block;
+    min-width: 45px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: pink;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 820px) {
+    .sidebar{
+        width: 13% !important;
+        padding-top: 5%;
+        border: none;
+    }
+
+    .sidebarContainer {
+        margin: 0;
+        margin-left: 20%;
+    }
+
+    .sidebar ul {
+        padding: 0;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .menuIcon{
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .sidebarContainer {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    .sidebarContainer {
+        margin-left: 3%;
+    }
+}
+
