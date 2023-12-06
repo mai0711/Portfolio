@@ -34,12 +34,13 @@
 .star {
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .star img {
     width: 80% ;
     height: 80% ;
+    margin-bottom: 10%;
 }
 
 .description {
@@ -67,18 +68,37 @@
     }
 }
 
+@media (max-width: 667px) {
+    .star img {
+        width: 60% ;
+        height: 60% ;
+    }
+
+    .star svg {
+        width: 15%;
+        height: 15%;
+    }
+
+}
+
 @media (max-width: 414px) {
     .skill img {
         width: 50px;
         height: 50px;
     }
 
-    .icons, .star {
-        margin: 0px;
-    }
-
     .skill p {
         padding: 10px 50px 0px 50px;
+    }
+
+    .star img {
+        width: 40% ;
+        height: 40% ;
+    }
+
+    .star svg {
+        width: 10%;
+        height: 10%;
     }
 
 }
