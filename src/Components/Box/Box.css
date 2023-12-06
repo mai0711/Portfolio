@@ -32,7 +32,7 @@
 }
 
 .cardContent .btn {
-    width: 50%;
+    width: 60%;
     font-weight: bold;
     border-color: black;
     background-color: white !important;
@@ -67,12 +67,6 @@
 
     .cardContent .card-text {
         font-size: 30%;
-    }
-}
-
-@media (max-width: 615px) {
-    .cardContent .btn {
-        width: 60%;
     }
 }
 
