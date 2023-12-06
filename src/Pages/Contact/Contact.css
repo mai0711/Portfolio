@@ -29,10 +29,18 @@
 
 li {
     display: inline-block;
+    text-align: center;
 }
 
 @media (max-width: 820px) {
     .contact {
         padding-left: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactImg img {
+        width: 50%;
+        height: 70%;
     }
 }
